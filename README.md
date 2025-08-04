@@ -28,24 +28,12 @@ A story point estimation tool.
    npm install
    ```
 
-3. **Set up environment variables**
-   Create a `.env` file in the root directory:
-   ```env
-   DATABASE_URL=postgresql://username:password@localhost:5432/poker_planning
-   NODE_ENV=development
-   ```
-
-4. **Set up the database**
-   ```bash
-   npm run db:push
-   ```
-
-5. **Start the development server**
+3. **Start the development server**
    ```bash
    npm run dev
    ```
 
-6. **Open your browser**
+4. **Open your browser**
    Navigate to `http://localhost:5000`
 
 
